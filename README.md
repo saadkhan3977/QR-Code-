@@ -10,7 +10,10 @@ install package
 composer require simplesoftwareio/simple-qrcode
 
 
-<h1>Register QR Code Service</h1> > config/app.php
+<h1>Register QR Code Service</h1> 
+
+
+config/app.php
 
 
 'providers' => [
@@ -40,7 +43,6 @@ php artisan make:controller QrCodeController
 
 
 public function index()
-
 {
 
 
